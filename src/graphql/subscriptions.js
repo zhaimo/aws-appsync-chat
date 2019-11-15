@@ -1,4 +1,4 @@
-// eslint-disable
+/* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
 export const onCreateConvoLink = `subscription OnCreateConvoLink($convoLinkUserId: ID!) {
@@ -72,8 +72,8 @@ export const onCreateMessage = `subscription OnCreateMessage($messageConversatio
   }
 }
 `;
-export const onCreateUser = `subscription OnCreateUser {
-  onCreateUser {
+export const onCreateUser = `subscription OnCreateUser($id: String!) {
+  onCreateUser(id: $id) {
     id
     username
     conversations {
@@ -102,8 +102,8 @@ export const onCreateUser = `subscription OnCreateUser {
   }
 }
 `;
-export const onUpdateUser = `subscription OnUpdateUser {
-  onUpdateUser {
+export const onUpdateUser = `subscription OnUpdateUser($id: String!) {
+  onUpdateUser(id: $id) {
     id
     username
     conversations {
@@ -132,8 +132,8 @@ export const onUpdateUser = `subscription OnUpdateUser {
   }
 }
 `;
-export const onDeleteUser = `subscription OnDeleteUser {
-  onDeleteUser {
+export const onDeleteUser = `subscription OnDeleteUser($id: String!) {
+  onDeleteUser(id: $id) {
     id
     username
     conversations {
