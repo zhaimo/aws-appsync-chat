@@ -1,5 +1,5 @@
 ![](src/assets/hero1.jpg)
-##
+
 ## Chatt
 
 Real-Time Offline Ready Chat App written with GraphQL, AWS AppSync, & AWS Amplify
