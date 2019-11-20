@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"awsappsyncchat908ef9e5": {
+		"awsappsyncchat725bb23e": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
@@ -16,7 +16,7 @@
 					"defaultAuthentication": {
 						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
 						"userPoolConfig": {
-							"userPoolId": "authawsappsyncchat908ef9e5"
+							"userPoolId": "authawsappsyncchat725bb23e"
 						}
 					}
 				}

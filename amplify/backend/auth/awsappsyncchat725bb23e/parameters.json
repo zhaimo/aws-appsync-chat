@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "awsappsyncchat908ef9e5_identitypool_908ef9e5",
+    "identityPoolName": "awsappsyncchat725bb23e_identitypool_725bb23e",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "awsapp908ef9e5",
-    "userPoolName": "awsappsyncchat908ef9e5_userpool_908ef9e5",
+    "resourceNameTruncated": "awsapp725bb23e",
+    "userPoolName": "awsappsyncchat725bb23e_userpool_725bb23e",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "awsapp908ef9e5_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "awsapp725bb23e_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "awsappsyncchat908ef9e5",
+    "resourceName": "awsappsyncchat725bb23e",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
